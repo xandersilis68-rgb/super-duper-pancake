@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volleyball Coach Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Volleyball Coach Board</h1>
+  <p style="text-align:center; color:gray;">
+    Click on a player to sub them or edit their name. Blue players are Liberos. Players snap to rotation positions.
+  </p>
+
+  <div class="container">
+    <div id="court">
+      <div id="net"></div>
+      <div id="rotationOverlay"></div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Roster</h2>
+      <ul id="roster"></ul>
+      <button id="saveBtn">Save Current Setup</button>
+    </div>
+  </div>
+
+  <h2>Substitution Log</h2>
+  <ul id="subLog"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
